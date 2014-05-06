@@ -1,7 +1,7 @@
 DT-Convolution
 ==============
 
-Optimizing purely sequential DT Convolution through SSE; parallelizing through OpenMP
+Optimizing purely sequential DT Convolution through Intel SSE intrinsics
 
 Lessons Learned about Intel SSE intrinsics
 - Better to use floating-point intrinsics since they are truly element-wise; integer intrinsics (especially fo multiplication) are not necessarily so.
